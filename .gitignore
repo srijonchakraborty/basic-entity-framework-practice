@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EntityFrameWorkBasicPractice/.vs/EntityFrameWorkBasicPractice
+/EntityFrameWorkBasicPractice/.vs/ProjectEvaluation
+/EntityFrameWorkBasicPractice/EntityFrameWorkBasicPractice/bin/Debug/net7.0
+/EntityFrameWorkBasicPractice/EntityFrameWorkBasicPractice/obj
