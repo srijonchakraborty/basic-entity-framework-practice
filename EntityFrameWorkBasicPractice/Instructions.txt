@@ -1,0 +1,16 @@
+DB First approch
+---------------
+Install  Microsoft.EntityFrameworkCore.SqlServer Nuget in all projects
+
+Install  Microsoft.EntityFrameworkCore.Design Nuget in all projects
+
+Install Microsoft.EntityFrameworkCore Repository Project 
+
+scaffold-DbContext "Data Source=SRIJON\SQLEXPRESS2022;Initial Catalog=EFDbFirstApproch;User ID=srijon;Password=srijon123456;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -Context "EntityFrameWorkBasicPracticeDbContext" -DataAnnotations -verbose -force -OutputDir "C:\Personal Projects\BasicEntityFramework\basic-entity-framework-practice\EntityFrameWorkBasicPractice\Common\Model" -ContextDir "C:\Personal Projects\BasicEntityFramework\basic-entity-framework-practice\EntityFrameWorkBasicPractice\Service"
+
+Note: 1. Encrypt=False; is necessary check web and microsoft 
+
+Each time if you update entity only then 
+
+Scaffold-DbContext "Data Source=SRIJON\SQLEXPRESS2022;Initial Catalog=EFDbFirstApproch;User ID=srijon;Password=srijon123456;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -Context "ExploreTechDbContext" -DataAnnotations -verbose -force -OutputDir "C:\Personal Projects\BasicEntityFramework\basic-entity-framework-practice\EntityFrameWorkBasicPractice\Common\Model"
+
